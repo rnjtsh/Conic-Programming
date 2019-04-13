@@ -1,0 +1,10 @@
+set INTERS := b c ;
+param EN := a ;
+param EX := d ;
+param: ROADS: base cap sens :=
+a b 4 10 .1
+a c 1 12 .7
+c b 2 20 .9
+b d 1 15 .5
+c d 6 10 .1 ;
+param through := 20 ;
